@@ -17,12 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
-      <body
-        className={`${fonte.className} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+		<html lang="pt-BR">
+			<body className={`${fonte.className} antialiased`}>{children}</body>
+		</html>
+	)
 }
